@@ -1,0 +1,17 @@
+html {
+    background: url('Merry-Christmas-1.jpg');
+}
+
+.container {
+    width: 1350px;  
+    height: 610px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+}
+
+button {
+    background-color: lightblue;  
+    color: black;  
+    font-size: 50px;
+}

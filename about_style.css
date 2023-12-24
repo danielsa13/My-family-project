@@ -1,0 +1,118 @@
+html {
+    background-color: green;
+}
+
+.profiles {
+    width: 1200px;
+    height: 575px;
+    display: flex;  
+    gap: 40px;
+    align-items: center;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.header {
+    width: 1350px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile {
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10%;
+    background-color: rgb(8, 243, 8);
+    font-family: sans-serif;
+    text-align: center;
+    width: 330px;
+    height: 435px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    align-items: center;
+}
+
+.profile__image {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.profile__detail {
+    border-style: solid;
+    border-color: rgb(189, 2, 2);
+    border-radius: 10%;
+    width: 330;
+    height: 230;
+    background-color: red;
+}
+
+.profile__2 {
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10%;
+    background-color: rgb(8, 243, 8);
+    font-family: sans-serif;
+    text-align: center;
+    width: 330px;
+    height: 435px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.profile__2__image {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.profile__2__details {
+    border-style: solid;
+    border-color: rgb(189, 2, 2);
+    border-radius: 5%;
+    width: 330;
+    height: 230;
+    background-color: red;
+}
+
+.profile__3 {
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10%;
+    background-color: rgb(8, 243, 8);
+    font-family: sans-serif;
+    text-align: center;
+    width: 330px;
+    height: 435px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.profile__3__image {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.profile__3__details {
+    border-style: solid;
+    border-color: rgb(189, 2, 2);
+    border-radius: 5%;
+    width: 330;
+    height: 230;
+    background-color: red;
+}

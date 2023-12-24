@@ -1,0 +1,49 @@
+html {
+    background-color: rgb(3, 121, 255);
+}
+
+.header {
+    background-color: rgb(9, 83, 167, 0.5);
+    text-align: center;
+    margin-bottom: 30px;
+    height: 50px;
+    font-size: 40px;
+    border-style: solid;
+    border-color: rgba(7, 57, 116, 0.5);
+    border-radius: 25px;
+}
+
+.picture {
+    height: 230;
+    background-color: rgba(9, 83, 167, 0.5);
+    border-style: solid;
+    border-color: rgba(7, 57, 116, 0.5);
+    border-radius: 25px;
+    position: relative;
+}
+
+.image {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.info {
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-style: solid;
+    border-color: rgba(7, 57, 116, 0.5);
+    border-radius: 25px;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 340px;
+}
+
+.button {
+    font-size: 25px;
+}
